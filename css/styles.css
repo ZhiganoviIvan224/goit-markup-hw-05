@@ -69,139 +69,139 @@ body {
 /*Шапка*/
 
 .header-page {
-border-bottom: 1px solid #ECECEC;
-padding-top: 24px;
-padding-bottom: 25px;
-}
-
-
-/*Логотип*/
-
-.logo {
-color: var(--black);
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-
-
-}
-
-.nav .logo {
-  margin-right: 94px;
-}
-
-.logo .logo-word {
-color: var(--accent-color);
-}
-
-.main-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.nav,
-.site-nav {
-  display: flex;
-  align-items: center;
-}
-
-
-.site-nav .item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.site-nav .link {
-  color: var(--title-text-color);
-  text-decoration: none;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  position: relative;
-  padding-top: 28px;
-  padding-bottom: 28px;
-
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-
-.site-nav .current {
-  color: var(--accent-color);
-}
-
-.site-nav .active::after
-{
-  content: '';
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  display: block;
-  width: 100%;
-  height: 5px;
-  border-radius: 4px;
-  background-color: var(--accent-color);
-  opacity: 0;
-
-  visibility: visible;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.active::after,
-.active:hover::after,
-.active:focus::after{
-  opacity: 1;
-}
-
-
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
-.icon-envelope {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.link-envelope {
-  align-items: center;
-  display: flex;
-}
-
-.icon-smartphone {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.link-smartphone {
-  align-items: center;
-  display: flex;
-}
-
-.contact {
-  display: flex;
-}
-
-.contact .link {
- color: var(--primary-text-color);
-  text-decoration: none;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-
-  visibility: visible;
-  transition: opacity 250ms,visibility 250ms linear ;
-}
-
-.contact .item:not(:last-child)
- { margin-right: 50px;
-}
-
-.contact .link:hover,
-.contact .link:focus {
-  color: var(--accent-color);
-}
+  border-bottom: 1px solid #ECECEC;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  }
+  
+  
+  /*Логотип*/
+  
+  .logo {
+    color: var(--black);
+      text-decoration: none;
+      font-family: 'Raleway', sans-serif;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 1.2;
+    
+    
+    }
+    
+    .nav .logo {
+      margin-right: 94px;
+    }
+    
+    .logo .logo-word {
+    color: var(--accent-color);
+    }
+    
+    .main-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .nav,
+    .site-nav {
+      display: flex;
+      align-items: center;
+    }
+    
+    
+    .site-nav .item:not(:last-child) {
+      margin-right: 50px;
+    }
+    
+    .site-nav .link {
+      color: var(--title-text-color);
+      text-decoration: none;
+      font-weight: 500;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+      position: relative;
+      padding-top: 28px;
+      padding-bottom: 28px;
+    
+      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    }
+    
+    .site-nav .current {
+      color: var(--accent-color);
+    }
+    
+    .site-nav .active::after
+    {
+      content: '';
+      position: absolute;
+      bottom: 0px;
+      left: 0px;
+      display: block;
+      width: 100%;
+      height: 5px;
+      border-radius: 4px;
+      background-color: var(--accent-color);
+      opacity: 0;
+    
+      visibility: visible;
+      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .active::after,
+    .active:hover::after,
+    .active:focus::after{
+      opacity: 1;
+    }
+    
+    
+    .site-nav .link:hover,
+    .site-nav .link:focus {
+      color: var(--accent-color);
+    }
+    
+    .icon-envelope {
+      margin-right: 10px;
+      fill: currentColor;
+    }
+    
+    .link-envelope {
+      align-items: center;
+      display: flex;
+    }
+    
+    .icon-smartphone {
+      margin-right: 10px;
+      fill: currentColor;
+    }
+    
+    .link-smartphone {
+      align-items: center;
+      display: flex;
+    }
+    
+    .contact {
+      display: flex;
+    }
+    
+    .contact .link {
+     color: var(--primary-text-color);
+      text-decoration: none;
+      font-weight: 500;
+      line-height: 1.14;
+      letter-spacing: 0.02em;
+    
+      visibility: visible;
+      transition: opacity 250ms,visibility 250ms linear ;
+    }
+    
+    .contact .item:not(:last-child)
+     { margin-right: 50px;
+    }
+    
+    .contact .link:hover,
+    .contact .link:focus {
+      color: var(--accent-color);
+    }
 
 
 .hero {
@@ -307,19 +307,7 @@ color: var(--button-white-color);
 /*FEATURES*/
 
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
 
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
 
 .features-section{
   padding-bottom: 47px;
@@ -348,7 +336,7 @@ color: var(--button-white-color);
 }
 
 .features .feature-text {
-  line-height: 1.17;
+  line-height: 1.71;
   margin-bottom: 0;
   margin-top: 0;
 
@@ -446,7 +434,7 @@ color: var(--button-white-color);
 .team .team-descrp {
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 0;
+  padding-bottom: 16px;
 }
 
 .team-list .item .team-img {
@@ -600,7 +588,7 @@ color: var(--button-white-color);
 }
 
 .features .feature-text {
-  line-height: 1.17;
+  line-height: 1.71;
   margin-bottom: 0;
   margin-top: 0;
   padding-top: 13.5px;
@@ -768,7 +756,8 @@ margin-right: 30px;
 
 .clients-icon {
   display: block;
-fill: #afb1b8;
+  fill: #afb1b8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* --------------CLIENTS---------*/
@@ -783,6 +772,7 @@ margin-right: 10px;
 
 .footer-links-item{
 fill: var(--accent-color);
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-links{
@@ -827,7 +817,7 @@ fill:var(--button-white-color);
   display: flex;
 
   visibility: visible;
-  transition: opacity 250ms,visibility 250ms linear ;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -892,61 +882,7 @@ fill:var(--button-white-color);
 
 
 
-/* ==============PORTFOLIO=========== */
 
-
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-  
-}
-
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-      1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-
-.portfolio-list-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-.portfolio-nav {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-
-  flex-wrap: wrap;
-}
-
-.portfolio-img-descr {
-   border: 1px solid #eeeeee;
-   border-top: none;
-   padding-top: 20px;
-   padding-bottom: 20px;
-   padding-right: 24px;
-   padding-left: 24px;
-}
-
-.portfolio-list-descrp {
-   font-size: 16px;
-   line-height: 1.88;
-   padding-top: 0;
-   margin-top: 0;
-   margin-bottom: 0;
-}
-
-.portfolio-list-title {
-   color: var(--title-text-color);
-   font-size: 18px;
-   line-height: 2;
-   letter-spacing: 0.06em;
-   margin-bottom: 4px;
-   margin-top: 0;
-}
 
 .adress-list .item:not(:last-child){
   margin-bottom: 9px;
@@ -956,48 +892,7 @@ fill:var(--button-white-color);
 .social-link{
   margin-right: 10px;
 }
-.team-tumb{
-  position: relative;
-  overflow: hidden;
-}
-.product-overlay{
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
 
-  width: 100%;
-  height: 100%;
-
-  background-color:  rgba(33, 150, 243, 0.9);
-  transform: translateY(100%);
-  backdrop-filter: blur(4px);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.ovarlay-text-card{
-  width: 322px;
-  height: 168px;
-  left: 239px;
-  top: 323px;
-  
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 28px;
-  /* or 156% */
-  
-  letter-spacing: 0.03em;
-  
-  color: #FFFFFF;
-
-  padding-left: 24px;
-  padding-right: 24px;
-}
-.portfolio-list-item:hover .product-overlay{
-  transform: translateY(0);
-}
 /* MODEL WINDOW */
 .backdrop{
   position: fixed;
